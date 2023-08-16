@@ -1,71 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Mi Portafolio</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sintony&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<title>Portfolio</title>
 </head>
 <body>
 	<header>
-		<h1>Mi Portafolio</h1>
-		<nav>
-			<ul>
-				<li><a href="#inicio">Inicio</a></li>
-				<li><a href="#sobre-mi">Sobre mí</a></li>
-				<li><a href="#proyectos">Proyectos</a></li>
-				<li><a href="#contacto">Contacto</a></li>
-			</ul>
-		</nav>
+		<h1>
+			<a href="#ham">About me</a>
+			<a href="#hP">Projects</a>
+			<a href="">Contact</a>
+		</h1>
 	</header>
-
-	<main>
-		<section id="inicio">
-			<h2>Bienvenidos a mi portafolio</h2>
-			<p>Este es mi portafolio en línea donde puedes ver mis proyectos y habilidades.</p>
-		</section>
-
-		<section id="sobre-mi">
-			<h2>Sobre mí</h2>
-			<p>Me llamo Ellery Ricaurte y soy Ingeniero de Sistemas. Me encanta Programar, cuento con habilidades de programación en Java, Python, desarrollo móvil en flutter y desarrollo web.</p>
-		</section>
-
-		<section id="proyectos">
-			<h2>Proyectos</h2>
-			<ul>
-				<li>
-					<h3>Proyecto 1</h3>
-					<p>Descripción del proyecto 1.</p>
-				</li>
-				<li>
-					<h3>Proyecto 2</h3>
-					<p>Descripción del proyecto 2.</p>
-				</li>
-				<li>
-					<h3>Proyecto 3</h3>
-					<p>Descripción del proyecto 3.</p>
-				</li>
-			</ul>
-		</section>
-
-		<section id="contacto">
-			<h2>Contacto</h2>
-			<form>
-				<label for="nombre">Nombre:</label>
-				<input type="text" id="nombre" name="nombre">
-
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email">
-
-				<label for="mensaje">Mensaje:</label>
-				<textarea id="mensaje" name="mensaje"></textarea>
-
-				<input type="submit" value="Enviar">
-			</form>
-		</section>
-	</main>
-
-	<footer>
-		<p>Derechos reservados &copy; 2023</p>
-	</footer>
+	<section class="welcome">
+		<div id="cWelcome">
+			<h1>Welcome to my Portfolio</h1>
+			<p>I'm Ellery Ricaurte</p>
+		</div>
+	</section>
+	<section class="AboutMe" id="ham">
+			<h1>About Me</h1>	
+			<div class="am">
+				<img src="img/ellery.jpg" alt="ellery.jpg">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta deserunt, esse nesciunt placeat cum asperiores distinctio! Vel in porro quo temporibus nam fugiat totam nostrum. Recusandae adipisci minus commodi voluptatibus?</p>
+			</div>
+	</section>
+	<section class="Projects" id="hP">
+		<h1>Projects</h1>
+	</section>
 </body>
 </html>
