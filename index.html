@@ -14,7 +14,7 @@
 		<h1>
 			<a href="#ham">About me</a>
 			<a href="#hP">Projects</a>
-			<a href="">Contact</a>
+			<a href="#hC">Contact</a>
 		</h1>
 	</header>
 	<section class="welcome">
@@ -27,11 +27,42 @@
 			<h1>About Me</h1>	
 			<div class="am">
 				<img src="img/ellery.jpg" alt="ellery.jpg">
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta deserunt, esse nesciunt placeat cum asperiores distinctio! Vel in porro quo temporibus nam fugiat totam nostrum. Recusandae adipisci minus commodi voluptatibus?</p>
+				<p> Hi, I'm Ellery Ricaurte, Systems Engineering student, I have knowledge in web development, Java, Pyhton and flutter. I am currently in a research hotbed carrying out a project.</p>
 			</div>
 	</section>
 	<section class="Projects" id="hP">
 		<h1>Projects</h1>
+		<div class="containProjects">
+			<div class="project1">
+				<a href="CALCULATOR/index.html"><img src="img/calculator.PNG" alt="calculadora"></a>
+			</div>
+			<div class="project2">
+				<a href="Headers/index.html"><img src="img/htmlP.PNG" alt="Project2"></a>
+			</div>
+		</div>
 	</section>
+	<section class="contact" id="hC">
+		<h1>Contact</h1>
+		<div class="contact">
+			<form>
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre" required>
+			  
+				<label for="correo">Correo electrónico:</label>
+				<input type="email" id="correo" name="correo" required>
+			  
+				<label for="telefono">Teléfono:</label>
+				<input type="tel" id="telefono" name="telefono">
+			  
+				<label for="mensaje">Mensaje:</label>
+				<textarea id="mensaje" name="mensaje" required></textarea>
+			  
+				<button type="submit">Enviar</button>
+			  </form>
+		</div>
+	</section>
+	<footer>
+		<h2>Copyright 2023</h2>
+	</footer>
 </body>
 </html>
